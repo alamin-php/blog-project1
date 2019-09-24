@@ -4,17 +4,21 @@
 }
 body{
 	background: #F0F0F0;
-	font-family: 'Ubuntu', sans-serif;
-	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
 }
 a{
 	text-decoration: none;
 }
 ul{
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
 }
+.clear{
+	overflow: hidden;
+}
 .template{
-
+	margin: 10px auto;
 }
 .container{
 	width: 1160px;
@@ -24,8 +28,93 @@ ul{
 .headeropt{
 	background: #00A99D;
 	color: #fcfcfc;
+	padding: 20px 15px;
+	display: block;
 }
-.maincontent{}
+.lefthead{
+	width: 300px;
+	float: left;
+}
+.lefthead h1{
+	font-size: 22px;
+}
+.righthead{
+	width: 820px;
+}
+.righthead ul{
+	float: right;
+}
+.righthead ul li{
+	float: left;
+	padding: 0px 5px;
+}
+.righthead ul li a{
+	font-size: 12px;
+	color: #fcfcfc;
+}
+.righthead ul li a:hover{}
+.maincontent{
+	padding: 20px;
+}
 .content{}
-.sidebar{}
-.footeropt{}
+.content h1{
+	font-size: 36px;
+	font-weight: normal;
+	margin: 50px 0px;
+}
+.samepost {
+	width: 350px;
+	height: auto;
+	float: left;
+	margin: 10px;
+	box-shadow: 5px 5px 10px #ddd;
+}
+.mrnone{
+	margin-right: 0;
+}
+
+.samepost img{
+	width: 350px;
+	height: 200px;
+}
+.samepost h2 {
+	font-size: 26px;
+	font-weight: normal;
+	margin: 15px 0px 30px 0px;
+}
+.samepost .postby {
+	color: #00A99D;
+	font-size: 10px;
+	margin-bottom: 10px;
+	display: block;
+	font-weight: bold;
+}
+.samepost p {
+	font-size: 15px;
+	line-height: 30px;
+}
+.pcounter {
+	width: 139px;
+	margin: 30px auto;
+	padding: 30px 0px;
+}
+.pcounter ul{
+
+}
+.pcounter ul li{
+	background: #00A99D;
+	float: left;
+	padding: 5px 10px;
+	margin-right: 5px; 
+}
+.pcounter ul li a{
+		color: #fcfcfc;
+}
+.footeropt {
+	text-align: center;
+	background: #000;
+	color: #fcfcfc;
+	font-size: 12px;
+	padding: 25px;
+}
+.footeropt strong{}
