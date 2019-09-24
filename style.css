@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #F0F0F0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type: none;
+}
+.template{
+
+}
+.container{
+	width: 1160px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+.headeropt{
+	background: #00A99D;
+	color: #fcfcfc;
+}
+.maincontent{}
+.content{}
+.sidebar{}
+.footeropt{}
