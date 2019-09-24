@@ -51,8 +51,11 @@ ul{
 .righthead ul li a{
 	font-size: 12px;
 	color: #fcfcfc;
+	transition:0.3s all ease;
 }
-.righthead ul li a:hover{}
+.righthead ul li a:hover{
+	color: #ddd;
+}
 .maincontent{
 	padding: 20px;
 }
@@ -94,27 +97,32 @@ ul{
 	line-height: 30px;
 }
 .pcounter {
-	width: 139px;
+	width: 150px;
 	margin: 30px auto;
 	padding: 30px 0px;
 }
 .pcounter ul{
 
 }
-.pcounter ul li{
-	background: #00A99D;
+.pcounter ul li {
 	float: left;
-	padding: 5px 10px;
-	margin-right: 5px; 
+	margin: 0px 3px;
 }
 .pcounter ul li a{
-		color: #fcfcfc;
+	background: #00A99D;
+	color: #fcfcfc;
+	transition:0.3s all ease;
+	padding: 5px 10px;
+	display: block;
+}
+.pcounter ul li a:hover{
+	background: #008C80;
 }
 .footeropt {
 	text-align: center;
 	background: #000;
 	color: #fcfcfc;
 	font-size: 12px;
-	padding: 25px;
+	padding: 50px 0px;
 }
 .footeropt strong{}
