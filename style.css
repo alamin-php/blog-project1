@@ -64,8 +64,10 @@ ul{
 	font-size: 36px;
 	font-weight: normal;
 	margin: 50px 0px;
+	border-bottom: 1px solid #00A99D;
+	padding-bottom: 5px;
 }
-.samepost {
+.samepost{
 	width: 350px;
 	height: auto;
 	float: left;
@@ -125,4 +127,45 @@ ul{
 	font-size: 12px;
 	padding: 50px 0px;
 }
-.footeropt strong{}
+.contactus{
+	width: 600px;
+	margin: 30px auto;
+	border: 1px solid #ddd;
+	padding: 50px;
+	box-shadow: 5px 5px 10px #ddd;
+}
+.contactus td{
+	font-size: 12px;
+}
+.contactus input[type="text"],input[type="email"]{
+	width: 400px;
+	height: 25px;
+	border: 1px solid #00A99D;
+	margin-bottom: 10px;
+	padding: 2px 3px;
+}
+.contactus input[type="submit"]{
+	background: #00A99D;
+	border: 1px solid #00A99D;
+	padding: 5px 10px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.address{
+	width: 350px;
+	height: auto;
+	float: left;
+	margin: 10px;
+	box-shadow: 5px 5px 10px #ddd;
+}
+.address h2{
+	font-size: 18px;
+	padding: 5px;
+	font-weight: normal;
+	border-bottom: 1px solid #00A99D;
+	margin-bottom: 10px;
+}
+.address p{
+	font-size: 12px;
+	line-height: 30px;
+}
